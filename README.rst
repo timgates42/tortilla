@@ -178,13 +178,13 @@ This option can be overridden with every request or subwrap:
 URL Suffix
 ~~~~~~~~~~
 
-Some APIs uses a trailling slash at the end of URLs like in example below:
+Some APIs uses a trailing slash at the end of URLs like in example below:
 
 .. code-block:: text
 
     https://api.example.org/resource/
 
-You can add the trailling slash with ``suffix="/"`` argument when wrapping
+You can add the trailing slash with ``suffix="/"`` argument when wrapping
 the API or getting the URL with ``.url(suffix="/")`` method:
 
 .. code-block:: python
